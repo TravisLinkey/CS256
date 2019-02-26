@@ -1,0 +1,4 @@
+/home/tlinkey/Programs/clion-2018.1.2/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/tlinkey/Projects/School/CS256/Workspace/Lectures/Lecture_15/Exception_Handling
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/tlinkey/Projects/School/CS256/Workspace/Lectures/Lecture_15/Exception_Handling/cmake-build-debug

@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/tlinkey/Projects/School/CS256/Workspace/Final/Part1/BigNumbers.cpp
+iostream
+-
+algorithm
+-
+BigNumbers.h
+/home/tlinkey/Projects/School/CS256/Workspace/Final/Part1/BigNumbers.h
+
+/home/tlinkey/Projects/School/CS256/Workspace/Final/Part1/BigNumbers.h
+random
+-
+functional
+-
+vector
+-
+
+/home/tlinkey/Projects/School/CS256/Workspace/Final/Part1/IO.cpp
+iostream
+-
+IO.h
+/home/tlinkey/Projects/School/CS256/Workspace/Final/Part1/IO.h
+
+/home/tlinkey/Projects/School/CS256/Workspace/Final/Part1/IO.h
+BigNumbers.h
+/home/tlinkey/Projects/School/CS256/Workspace/Final/Part1/BigNumbers.h
+
+/home/tlinkey/Projects/School/CS256/Workspace/Final/Part1/main.cpp
+iostream
+-
+BigNumbers.h
+/home/tlinkey/Projects/School/CS256/Workspace/Final/Part1/BigNumbers.h
+IO.h
+/home/tlinkey/Projects/School/CS256/Workspace/Final/Part1/IO.h
+

@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Part1.dir/main.cpp.o CMakeFiles/Part1.dir/BigNumbers.cpp.o CMakeFiles/Part1.dir/IO.cpp.o  -o Part1 

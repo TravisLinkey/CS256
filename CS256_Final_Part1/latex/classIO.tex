@@ -1,0 +1,142 @@
+\hypertarget{classIO}{}\section{IO Class Reference}
+\label{classIO}\index{IO@{IO}}
+
+
+\mbox{\hyperlink{classIO}{IO}} Class.  
+
+
+
+
+{\ttfamily \#include $<$I\+O.\+h$>$}
+
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{classIO_1_1InvalidRange}{Invalid\+Range}}
+\begin{DoxyCompactList}\small\item\em Exception Class \+: catch Invalid Integer Range. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{classIO_1_1InvalidVector}{Invalid\+Vector}}
+\begin{DoxyCompactList}\small\item\em Exception Class \+: catch Invalid Vector input. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{classIO_1_1NegativeValue}{Negative\+Value}}
+\begin{DoxyCompactList}\small\item\em Exception Class \+: catch Negative Values. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{classIO_1_1NonIntegerValue}{Non\+Integer\+Value}}
+\begin{DoxyCompactList}\small\item\em Exception Class \+: catch Non\+Integer Values. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classIO_a51997957fe3ae3bb8f8a72e2a41debf5}{set\+\_\+numbers}} ()
+\item 
+std\+::vector$<$ int $>$ \mbox{\hyperlink{classIO_a049d0bb812a8ac48b950f60f4931f344}{get\+\_\+numbers}} ()
+\item 
+std\+::vector$<$ int $>$ \mbox{\hyperlink{classIO_a258e39776df5a07ad72c7816ac0acdf2}{vectorify}} (char input\mbox{[}$\,$\mbox{]}, int size)
+\begin{DoxyCompactList}\small\item\em Method to take integer array and return it as a vector. \end{DoxyCompactList}\item 
+std\+::vector$<$ int $>$ \mbox{\hyperlink{classIO_a83820ab9aabab4a14b1a606966abe7cf}{get\+\_\+vector}} (int num)
+\begin{DoxyCompactList}\small\item\em Method to return private vector from class. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classIO_a96a29f45bb9632611271d945aeee6b2a}{not\+\_\+int}} (char current)
+\begin{DoxyCompactList}\small\item\em Method to check if input character is an integer. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classIO_accf477f16d55cee9ece47ca7c8f8787c}{get\+\_\+operation}} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\mbox{\hyperlink{classIO}{IO}} Class. 
+
+\begin{DoxyAuthor}{Author}
+
+\end{DoxyAuthor}
+\begin{DoxyParagraph}{Author}
+ravis Linkey 
+\end{DoxyParagraph}
+
+
+\begin{DoxyDate}{Date}
+
+\end{DoxyDate}
+\begin{DoxyParagraph}{Date}
+2018/05/31 
+\end{DoxyParagraph}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classIO_a049d0bb812a8ac48b950f60f4931f344}\label{classIO_a049d0bb812a8ac48b950f60f4931f344}} 
+\index{IO@{IO}!get\+\_\+numbers@{get\+\_\+numbers}}
+\index{get\+\_\+numbers@{get\+\_\+numbers}!IO@{IO}}
+\subsubsection{\texorpdfstring{get\+\_\+numbers()}{get\_numbers()}}
+{\footnotesize\ttfamily std\+::vector$<$ int $>$ I\+O\+::get\+\_\+numbers (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Method to get the input \mbox{\hyperlink{classBigNumbers}{Big\+Numbers}} \mbox{\Hypertarget{classIO_accf477f16d55cee9ece47ca7c8f8787c}\label{classIO_accf477f16d55cee9ece47ca7c8f8787c}} 
+\index{IO@{IO}!get\+\_\+operation@{get\+\_\+operation}}
+\index{get\+\_\+operation@{get\+\_\+operation}!IO@{IO}}
+\subsubsection{\texorpdfstring{get\+\_\+operation()}{get\_operation()}}
+{\footnotesize\ttfamily int I\+O\+::get\+\_\+operation (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Method to get user input operation \begin{DoxyReturn}{Returns}
+user selection
+\end{DoxyReturn}
+Method to get user input operation \mbox{\Hypertarget{classIO_a83820ab9aabab4a14b1a606966abe7cf}\label{classIO_a83820ab9aabab4a14b1a606966abe7cf}} 
+\index{IO@{IO}!get\+\_\+vector@{get\+\_\+vector}}
+\index{get\+\_\+vector@{get\+\_\+vector}!IO@{IO}}
+\subsubsection{\texorpdfstring{get\+\_\+vector()}{get\_vector()}}
+{\footnotesize\ttfamily std\+::vector$<$ int $>$ I\+O\+::get\+\_\+vector (\begin{DoxyParamCaption}\item[{int}]{num }\end{DoxyParamCaption})}
+
+
+
+Method to return private vector from class. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em num} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+vector
+\end{DoxyReturn}
+Method to return private vector from class \mbox{\Hypertarget{classIO_a96a29f45bb9632611271d945aeee6b2a}\label{classIO_a96a29f45bb9632611271d945aeee6b2a}} 
+\index{IO@{IO}!not\+\_\+int@{not\+\_\+int}}
+\index{not\+\_\+int@{not\+\_\+int}!IO@{IO}}
+\subsubsection{\texorpdfstring{not\+\_\+int()}{not\_int()}}
+{\footnotesize\ttfamily bool I\+O\+::not\+\_\+int (\begin{DoxyParamCaption}\item[{char}]{current }\end{DoxyParamCaption})}
+
+
+
+Method to check if input character is an integer. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em current} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+boolean
+\end{DoxyReturn}
+Method to check if input character is an integer \mbox{\Hypertarget{classIO_a51997957fe3ae3bb8f8a72e2a41debf5}\label{classIO_a51997957fe3ae3bb8f8a72e2a41debf5}} 
+\index{IO@{IO}!set\+\_\+numbers@{set\+\_\+numbers}}
+\index{set\+\_\+numbers@{set\+\_\+numbers}!IO@{IO}}
+\subsubsection{\texorpdfstring{set\+\_\+numbers()}{set\_numbers()}}
+{\footnotesize\ttfamily void I\+O\+::set\+\_\+numbers (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Method to set the input \mbox{\hyperlink{classBigNumbers}{Big\+Numbers}} into private variables \mbox{\Hypertarget{classIO_a258e39776df5a07ad72c7816ac0acdf2}\label{classIO_a258e39776df5a07ad72c7816ac0acdf2}} 
+\index{IO@{IO}!vectorify@{vectorify}}
+\index{vectorify@{vectorify}!IO@{IO}}
+\subsubsection{\texorpdfstring{vectorify()}{vectorify()}}
+{\footnotesize\ttfamily std\+::vector$<$ int $>$ I\+O\+::vectorify (\begin{DoxyParamCaption}\item[{char}]{ints\mbox{[}$\,$\mbox{]},  }\item[{int}]{size }\end{DoxyParamCaption})}
+
+
+
+Method to take integer array and return it as a vector. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em input} & \\
+\hline
+{\em size} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+vector
+\end{DoxyReturn}
+Method to take integer array and return it as a vector 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+I\+O.\+h\item 
+I\+O.\+cpp\end{DoxyCompactItemize}

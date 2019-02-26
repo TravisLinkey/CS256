@@ -1,0 +1,261 @@
+\hypertarget{classBigNumbers}{}\section{Big\+Numbers Class Reference}
+\label{classBigNumbers}\index{Big\+Numbers@{Big\+Numbers}}
+
+
+Class to hold very large number.  
+
+
+
+
+{\ttfamily \#include $<$Big\+Numbers.\+h$>$}
+
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{classBigNumbers_1_1DivideByZeroException}{Divide\+By\+Zero\+Exception}}
+\begin{DoxyCompactList}\small\item\em Exception Class \+: Divide by zero. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classBigNumbers_af3dd82883f10f3473ac83280f26b0ad8}{Big\+Numbers}} ()
+\begin{DoxyCompactList}\small\item\em Constructor. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classBigNumbers_a1bdf450fbccb23f66ac642fdd54126ee}{Big\+Numbers}} (vector$<$ int $>$)
+\item 
+\mbox{\Hypertarget{classBigNumbers_ad32417ecab79a88474e1b1f10b1eb85f}\label{classBigNumbers_ad32417ecab79a88474e1b1f10b1eb85f}} 
+void \mbox{\hyperlink{classBigNumbers_ad32417ecab79a88474e1b1f10b1eb85f}{operator+}} (\mbox{\hyperlink{classBigNumbers}{Big\+Numbers}} \&)
+\begin{DoxyCompactList}\small\item\em Operator overloading plus. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classBigNumbers_a24ae2be2196b1687e9fc7743e04550b6}\label{classBigNumbers_a24ae2be2196b1687e9fc7743e04550b6}} 
+vector$<$ int $>$ \mbox{\hyperlink{classBigNumbers_a24ae2be2196b1687e9fc7743e04550b6}{operator-\/}} (\mbox{\hyperlink{classBigNumbers}{Big\+Numbers}} \&)
+\begin{DoxyCompactList}\small\item\em Operator overloading minus. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classBigNumbers_a4de528bfd05e549f753ccd0523734d7b}\label{classBigNumbers_a4de528bfd05e549f753ccd0523734d7b}} 
+void \mbox{\hyperlink{classBigNumbers_a4de528bfd05e549f753ccd0523734d7b}{operator$\ast$}} (\mbox{\hyperlink{classBigNumbers}{Big\+Numbers}} \&)
+\begin{DoxyCompactList}\small\item\em Operator overloading multiplication. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classBigNumbers_a0579c6282085fb4638b65f78c2bb68ab}\label{classBigNumbers_a0579c6282085fb4638b65f78c2bb68ab}} 
+void \mbox{\hyperlink{classBigNumbers_a0579c6282085fb4638b65f78c2bb68ab}{operator/}} (\mbox{\hyperlink{classBigNumbers}{Big\+Numbers}} \&)
+\begin{DoxyCompactList}\small\item\em Operator overloading division. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classBigNumbers_a26d585ea0e5f990a7e592e0060cc06d6}{operator\%}} (\mbox{\hyperlink{classBigNumbers}{Big\+Numbers}} \&)
+\begin{DoxyCompactList}\small\item\em Operator overloading mod. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classBigNumbers_ad9a6ac2983843a8dfd4f140e871b3ec4}\label{classBigNumbers_ad9a6ac2983843a8dfd4f140e871b3ec4}} 
+bool \mbox{\hyperlink{classBigNumbers_ad9a6ac2983843a8dfd4f140e871b3ec4}{operator$>$}} (\mbox{\hyperlink{classBigNumbers}{Big\+Numbers}} \&)
+\begin{DoxyCompactList}\small\item\em Operator overloading greater than. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classBigNumbers_af854a4343e989377858f16639dbe5cb8}\label{classBigNumbers_af854a4343e989377858f16639dbe5cb8}} 
+void \mbox{\hyperlink{classBigNumbers_af854a4343e989377858f16639dbe5cb8}{operator-\/-\/}} (int)
+\begin{DoxyCompactList}\small\item\em Operator overloading unary minus. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classBigNumbers_ac7612b9a05b5aa3a6c84aa58b6e66ba3}\label{classBigNumbers_ac7612b9a05b5aa3a6c84aa58b6e66ba3}} 
+void \mbox{\hyperlink{classBigNumbers_ac7612b9a05b5aa3a6c84aa58b6e66ba3}{operator++}} (int)
+\begin{DoxyCompactList}\small\item\em Operator overloading unary plus. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classBigNumbers_ae5d36fdc52a34e361f7aabcd26b2779f}{print\+\_\+from\+\_\+front}} ()
+\item 
+bool \mbox{\hyperlink{classBigNumbers_a507cc9d1c3a81be8bbd26b82147bef08}{is\+\_\+smaller}} (\mbox{\hyperlink{classBigNumbers}{Big\+Numbers}} $\ast$ptr)
+\item 
+bool \mbox{\hyperlink{classBigNumbers_a79f79dcbd53531d1b72710adc3e0edbd}{is\+\_\+larger}} (\mbox{\hyperlink{classBigNumbers}{Big\+Numbers}} $\ast$ptr)
+\item 
+bool \mbox{\hyperlink{classBigNumbers_aadaa69c23de5d36bc361e9c5fcab0ce7}{is\+\_\+zero}} (vector$<$ int $>$ vector)
+\item 
+bool \mbox{\hyperlink{classBigNumbers_ad5638daadb14c31d3c262a5b963e015f}{is\+\_\+equal}} (\mbox{\hyperlink{classBigNumbers}{Big\+Numbers}} $\ast$p\+Numbers)
+\item 
+void \mbox{\hyperlink{classBigNumbers_a01e273aec9f5996878710e9bf1ba4273}{fill\+\_\+front}} (int size)
+\item 
+int \mbox{\hyperlink{classBigNumbers_a019f694d325d65cee5c3a0937b428c9e}{get\+\_\+difference}} (\mbox{\hyperlink{classBigNumbers}{Big\+Numbers}} $\ast$p\+Numbers)
+\item 
+std\+::vector$<$ int $>$ \mbox{\hyperlink{classBigNumbers_a8ad0e43ccbd70975c217fa96e26d50a3}{vectorify}} (int input)
+\item 
+void \mbox{\hyperlink{classBigNumbers_a99e5cc37000c1192d718bad688805919}{trim\+\_\+vector}} ()
+\item 
+std\+::vector$<$ int $>$ \mbox{\hyperlink{classBigNumbers_a98c90a5e552783479d6b42a7a55e3f84}{generate\+\_\+random}} (int size)
+\item 
+void \mbox{\hyperlink{classBigNumbers_ac335a2d818b21193d9dc6616d12cd87d}{drop\+\_\+leading\+\_\+zeros}} ()
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classBigNumbers_afbdf195b03dfad2a7d9f4938de3c1d3f}\label{classBigNumbers_afbdf195b03dfad2a7d9f4938de3c1d3f}} 
+bool \mbox{\hyperlink{classBigNumbers_afbdf195b03dfad2a7d9f4938de3c1d3f}{negative}} = false
+\begin{DoxyCompactList}\small\item\em is number negative \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classBigNumbers_a1c465fdef8f730ee1092e17bc8b79db7}\label{classBigNumbers_a1c465fdef8f730ee1092e17bc8b79db7}} 
+vector$<$ int $>$ \mbox{\hyperlink{classBigNumbers_a1c465fdef8f730ee1092e17bc8b79db7}{numbers\+\_\+vector}}
+\begin{DoxyCompactList}\small\item\em Holds the number vector. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Class to hold very large number. 
+
+\begin{DoxyAuthor}{Author}
+
+\end{DoxyAuthor}
+\begin{DoxyParagraph}{Author}
+ravis Linkey 
+\end{DoxyParagraph}
+
+
+\begin{DoxyDate}{Date}
+
+\end{DoxyDate}
+\begin{DoxyParagraph}{Date}
+2018/05/31 
+\end{DoxyParagraph}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classBigNumbers_af3dd82883f10f3473ac83280f26b0ad8}\label{classBigNumbers_af3dd82883f10f3473ac83280f26b0ad8}} 
+\index{Big\+Numbers@{Big\+Numbers}!Big\+Numbers@{Big\+Numbers}}
+\index{Big\+Numbers@{Big\+Numbers}!Big\+Numbers@{Big\+Numbers}}
+\subsubsection{\texorpdfstring{Big\+Numbers()}{BigNumbers()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Big\+Numbers\+::\+Big\+Numbers (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Constructor. 
+
+Constructor function without arguments. \mbox{\Hypertarget{classBigNumbers_a1bdf450fbccb23f66ac642fdd54126ee}\label{classBigNumbers_a1bdf450fbccb23f66ac642fdd54126ee}} 
+\index{Big\+Numbers@{Big\+Numbers}!Big\+Numbers@{Big\+Numbers}}
+\index{Big\+Numbers@{Big\+Numbers}!Big\+Numbers@{Big\+Numbers}}
+\subsubsection{\texorpdfstring{Big\+Numbers()}{BigNumbers()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Big\+Numbers\+::\+Big\+Numbers (\begin{DoxyParamCaption}\item[{vector$<$ int $>$}]{ }\end{DoxyParamCaption})}
+
+/param Input vector 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classBigNumbers_ac335a2d818b21193d9dc6616d12cd87d}\label{classBigNumbers_ac335a2d818b21193d9dc6616d12cd87d}} 
+\index{Big\+Numbers@{Big\+Numbers}!drop\+\_\+leading\+\_\+zeros@{drop\+\_\+leading\+\_\+zeros}}
+\index{drop\+\_\+leading\+\_\+zeros@{drop\+\_\+leading\+\_\+zeros}!Big\+Numbers@{Big\+Numbers}}
+\subsubsection{\texorpdfstring{drop\+\_\+leading\+\_\+zeros()}{drop\_leading\_zeros()}}
+{\footnotesize\ttfamily void Big\+Numbers\+::drop\+\_\+leading\+\_\+zeros (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Function to drop the leading zeros from the vector \mbox{\Hypertarget{classBigNumbers_a01e273aec9f5996878710e9bf1ba4273}\label{classBigNumbers_a01e273aec9f5996878710e9bf1ba4273}} 
+\index{Big\+Numbers@{Big\+Numbers}!fill\+\_\+front@{fill\+\_\+front}}
+\index{fill\+\_\+front@{fill\+\_\+front}!Big\+Numbers@{Big\+Numbers}}
+\subsubsection{\texorpdfstring{fill\+\_\+front()}{fill\_front()}}
+{\footnotesize\ttfamily void Big\+Numbers\+::fill\+\_\+front (\begin{DoxyParamCaption}\item[{int}]{size }\end{DoxyParamCaption})}
+
+Function to fill the front of a Big\+Number with zeros 
+\begin{DoxyParams}{Parameters}
+{\em size} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classBigNumbers_a98c90a5e552783479d6b42a7a55e3f84}\label{classBigNumbers_a98c90a5e552783479d6b42a7a55e3f84}} 
+\index{Big\+Numbers@{Big\+Numbers}!generate\+\_\+random@{generate\+\_\+random}}
+\index{generate\+\_\+random@{generate\+\_\+random}!Big\+Numbers@{Big\+Numbers}}
+\subsubsection{\texorpdfstring{generate\+\_\+random()}{generate\_random()}}
+{\footnotesize\ttfamily std\+::vector$<$ int $>$ Big\+Numbers\+::generate\+\_\+random (\begin{DoxyParamCaption}\item[{int}]{size }\end{DoxyParamCaption})}
+
+Extra function to generate random a vector of input size 
+\begin{DoxyParams}{Parameters}
+{\em size} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+vector 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classBigNumbers_a019f694d325d65cee5c3a0937b428c9e}\label{classBigNumbers_a019f694d325d65cee5c3a0937b428c9e}} 
+\index{Big\+Numbers@{Big\+Numbers}!get\+\_\+difference@{get\+\_\+difference}}
+\index{get\+\_\+difference@{get\+\_\+difference}!Big\+Numbers@{Big\+Numbers}}
+\subsubsection{\texorpdfstring{get\+\_\+difference()}{get\_difference()}}
+{\footnotesize\ttfamily int Big\+Numbers\+::get\+\_\+difference (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classBigNumbers}{Big\+Numbers}} $\ast$}]{p\+Numbers }\end{DoxyParamCaption})}
+
+Gets the difference in digit count between two \mbox{\hyperlink{classBigNumbers}{Big\+Numbers}} 
+\begin{DoxyParams}{Parameters}
+{\em p\+Numbers} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{classBigNumbers_ad5638daadb14c31d3c262a5b963e015f}\label{classBigNumbers_ad5638daadb14c31d3c262a5b963e015f}} 
+\index{Big\+Numbers@{Big\+Numbers}!is\+\_\+equal@{is\+\_\+equal}}
+\index{is\+\_\+equal@{is\+\_\+equal}!Big\+Numbers@{Big\+Numbers}}
+\subsubsection{\texorpdfstring{is\+\_\+equal()}{is\_equal()}}
+{\footnotesize\ttfamily bool Big\+Numbers\+::is\+\_\+equal (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classBigNumbers}{Big\+Numbers}} $\ast$}]{num2 }\end{DoxyParamCaption})}
+
+Function to check if two \mbox{\hyperlink{classBigNumbers}{Big\+Numbers}} are equal 
+\begin{DoxyParams}{Parameters}
+{\em ptr} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classBigNumbers_a79f79dcbd53531d1b72710adc3e0edbd}\label{classBigNumbers_a79f79dcbd53531d1b72710adc3e0edbd}} 
+\index{Big\+Numbers@{Big\+Numbers}!is\+\_\+larger@{is\+\_\+larger}}
+\index{is\+\_\+larger@{is\+\_\+larger}!Big\+Numbers@{Big\+Numbers}}
+\subsubsection{\texorpdfstring{is\+\_\+larger()}{is\_larger()}}
+{\footnotesize\ttfamily bool Big\+Numbers\+::is\+\_\+larger (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classBigNumbers}{Big\+Numbers}} $\ast$}]{num2 }\end{DoxyParamCaption})}
+
+Function to check if a Big\+Number is smaller 
+\begin{DoxyParams}{Parameters}
+{\em ptr} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classBigNumbers_a507cc9d1c3a81be8bbd26b82147bef08}\label{classBigNumbers_a507cc9d1c3a81be8bbd26b82147bef08}} 
+\index{Big\+Numbers@{Big\+Numbers}!is\+\_\+smaller@{is\+\_\+smaller}}
+\index{is\+\_\+smaller@{is\+\_\+smaller}!Big\+Numbers@{Big\+Numbers}}
+\subsubsection{\texorpdfstring{is\+\_\+smaller()}{is\_smaller()}}
+{\footnotesize\ttfamily bool Big\+Numbers\+::is\+\_\+smaller (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classBigNumbers}{Big\+Numbers}} $\ast$}]{num2 }\end{DoxyParamCaption})}
+
+Function to check if a Big\+Number is smaller 
+\begin{DoxyParams}{Parameters}
+{\em ptr} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classBigNumbers_aadaa69c23de5d36bc361e9c5fcab0ce7}\label{classBigNumbers_aadaa69c23de5d36bc361e9c5fcab0ce7}} 
+\index{Big\+Numbers@{Big\+Numbers}!is\+\_\+zero@{is\+\_\+zero}}
+\index{is\+\_\+zero@{is\+\_\+zero}!Big\+Numbers@{Big\+Numbers}}
+\subsubsection{\texorpdfstring{is\+\_\+zero()}{is\_zero()}}
+{\footnotesize\ttfamily bool Big\+Numbers\+::is\+\_\+zero (\begin{DoxyParamCaption}\item[{vector$<$ int $>$}]{vector }\end{DoxyParamCaption})}
+
+Function to check if a Big\+Number is equal to zero 
+\begin{DoxyParams}{Parameters}
+{\em ptr} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classBigNumbers_a26d585ea0e5f990a7e592e0060cc06d6}\label{classBigNumbers_a26d585ea0e5f990a7e592e0060cc06d6}} 
+\index{Big\+Numbers@{Big\+Numbers}!operator\%@{operator\%}}
+\index{operator\%@{operator\%}!Big\+Numbers@{Big\+Numbers}}
+\subsubsection{\texorpdfstring{operator\%()}{operator\%()}}
+{\footnotesize\ttfamily void Big\+Numbers\+::operator\% (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classBigNumbers}{Big\+Numbers}} \&}]{rhs }\end{DoxyParamCaption})}
+
+
+
+Operator overloading mod. 
+
+Operator overloading for Modulus. \mbox{\Hypertarget{classBigNumbers_ae5d36fdc52a34e361f7aabcd26b2779f}\label{classBigNumbers_ae5d36fdc52a34e361f7aabcd26b2779f}} 
+\index{Big\+Numbers@{Big\+Numbers}!print\+\_\+from\+\_\+front@{print\+\_\+from\+\_\+front}}
+\index{print\+\_\+from\+\_\+front@{print\+\_\+from\+\_\+front}!Big\+Numbers@{Big\+Numbers}}
+\subsubsection{\texorpdfstring{print\+\_\+from\+\_\+front()}{print\_from\_front()}}
+{\footnotesize\ttfamily void Big\+Numbers\+::print\+\_\+from\+\_\+front (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Function to print a Big\+Number from front to back \mbox{\Hypertarget{classBigNumbers_a99e5cc37000c1192d718bad688805919}\label{classBigNumbers_a99e5cc37000c1192d718bad688805919}} 
+\index{Big\+Numbers@{Big\+Numbers}!trim\+\_\+vector@{trim\+\_\+vector}}
+\index{trim\+\_\+vector@{trim\+\_\+vector}!Big\+Numbers@{Big\+Numbers}}
+\subsubsection{\texorpdfstring{trim\+\_\+vector()}{trim\_vector()}}
+{\footnotesize\ttfamily void Big\+Numbers\+::trim\+\_\+vector (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Function to trim the zero\textquotesingle{}s from the front of a Big\+Number \mbox{\Hypertarget{classBigNumbers_a8ad0e43ccbd70975c217fa96e26d50a3}\label{classBigNumbers_a8ad0e43ccbd70975c217fa96e26d50a3}} 
+\index{Big\+Numbers@{Big\+Numbers}!vectorify@{vectorify}}
+\index{vectorify@{vectorify}!Big\+Numbers@{Big\+Numbers}}
+\subsubsection{\texorpdfstring{vectorify()}{vectorify()}}
+{\footnotesize\ttfamily std\+::vector$<$ int $>$ Big\+Numbers\+::vectorify (\begin{DoxyParamCaption}\item[{int}]{input }\end{DoxyParamCaption})}
+
+Turns the input parameter into a vector 
+\begin{DoxyParams}{Parameters}
+{\em input} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+vector 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Big\+Numbers.\+h\item 
+Big\+Numbers.\+cpp\end{DoxyCompactItemize}

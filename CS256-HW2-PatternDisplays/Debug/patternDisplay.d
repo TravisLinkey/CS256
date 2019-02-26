@@ -1,0 +1,1 @@
+patternDisplay.o: ../patternDisplay.c
